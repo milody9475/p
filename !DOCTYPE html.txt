@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ไก่พื้นบ้านสายพันธุ์ประดู่หาดำ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8B4513;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #556B2F;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #8B4513;
+            padding-bottom: 0.5rem;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ไก่พื้นบ้านสายพันธุ์ประดู่หาดำ</h1>
+    </header>
+    <nav>
+        <a href="#history">ประวัติสายพันธุ์</a>
+        <a href="#features">ลักษณะเด่น</a>
+        <a href="#care">การเลี้ยงและการดูแล</a>
+        <a href="#breeding">การเพาะพันธุ์</a>
+    </nav>
+    <div class="container">
+        <section id="history" class="section">
+            <h2>ประวัติสายพันธุ์</h2>
+            <p>ไก่ประดู่หาดำเป็นไก่พื้นบ้านสายพันธุ์ที่มีความสำคัญในประเทศไทย มีประวัติยาวนานและเป็นที่รู้จักในเรื่องความอึดและทนทาน...</p>
+            <img src="/mnt/data/Company-Profile-ไก่ประดู่-1.jpg" alt="ประวัติสายพันธุ์">
+        </section>
+        <section id="features" class="section">
+            <h2>ลักษณะเด่น</h2>
+            <p>ไก่ประดู่หาดำมีลักษณะเด่นที่เป็นเอกลักษณ์ เช่น ขนสีดำเป็นประกาย ร่างกายแข็งแรง ทนทานต่อสภาพอากาศ...</p>
+            <img src="/mnt/data/Company-Profile-ไก่ประดู่-2.jpg" alt="ลักษณะเด่น">
+        </section>
+        <section id="care" class="section">
+            <h2>การเลี้ยงและการดูแล</h2>
+            <p>การเลี้ยงไก่ประดู่หาดำต้องการการดูแลที่พิเศษเพื่อให้ได้ผลผลิตที่ดีที่สุด เช่น การให้อาหารที่เหมาะสม การดูแลสุขภาพ...</p>
+            <img src="/mnt/data/Company-Profile-ไก่ประดู่-3.jpg" alt="การเลี้ยงและการดูแล">
+        </section>
+        <section id="breeding" class="section">
+            <h2>การเพาะพันธุ์</h2>
+            <p>การเพาะพันธุ์ไก่ประดู่หาดำต้องการความรู้และเทคนิคเฉพาะเพื่อให้ได้ลูกไก่ที่แข็งแรงและมีคุณภาพ...</p>
+            <img src="/mnt/data/Company-Profile-ไก่ประดู่-4.jpg" alt="การเพาะพันธุ์">
+        </section>
+        <section class="section">
+            <h2>กลยุทธ์ด้านการตลาด</h2>
+            <img src="/mnt/data/Company-Profile-ไก่ประดู่-5.jpg" alt="กลยุทธ์ด้านการตลาด">
+        </section>
+        <section class="section">
+            <h2>ผลการรับรองผลิตภัณฑ์จากเกษตรกร</h2>
+            <img src="/mnt/data/Company-Profile-ไก่ประดู่-6.jpg" alt="ผลการรับรองผลิตภัณฑ์จากเกษตรกร">
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 ข้อมูลเกี่ยวกับไก่พื้นบ้านสายพันธุ์ประดู่หาดำ</p>
+    </footer>
+</body>
+</html>
